@@ -69,7 +69,7 @@ nav ul li a:hover::after{
 .header-text-item1{
     flex-basis: 50%;
 }
-}
+
 .header-text-item2{
     flex-basis: 50%;
 }
@@ -252,9 +252,7 @@ nav .fa-solid{
 }
 
 @media only screen and (max-width:600px){
-    #header{
-        background-image: url();
-    }
+
     .header-text{        
         display: flex;
         flex-direction: column;
@@ -271,7 +269,7 @@ nav .fa-solid{
     }
     .header-text-item2 img{
         margin-top: 50px;
-        width: 400px;
+        width: 300px;
     }
     nav .fa-solid{
         display: block;
